@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ClassLibrary1
 {
@@ -13,10 +14,11 @@ namespace ClassLibrary1
 
     public class TraceResult
     {
-        public LinkedList<ThreadInfo> Threads = new LinkedList<ThreadInfo>();
-
-        public TraceResult()
+        
+        public TimeSpan Elapsed;
+        public TraceResult(TimeSpan elapsed)
         {
+            Elapsed = elapsed;
         }
     }
 
@@ -35,12 +37,13 @@ namespace ClassLibrary1
     {
         public string MethodName;
         public string ClassName;
-        public long ElapsedMs;
+        public int ElapsedMs;
         
-        public MethodInfo(string methodName, string className)
+        public MethodInfo(string methodName, string className, int elapsedMs)
         {
             MethodName = methodName;
             ClassName = className;
+            ElapsedMs = elapsedMs;
         }
     }
 }

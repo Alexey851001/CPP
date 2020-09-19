@@ -10,13 +10,19 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcdf8cad-7f03-414f-a96b-7550f0c06b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/ClassLibrary.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/ITracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/ITracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApplication/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApplication/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +42,9 @@
         <option value="$PROJECT_DIR$/ClassLibrary1/Class1.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary1/TraceResult.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary1/ITracer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/ITracer.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/Program.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracer.cs" />
       </list>
     </option>
   </component>
@@ -88,13 +94,23 @@
       <option name="presentableId" value="Default" />
       <updated>1600363043845</updated>
       <workItem from="1600363047056" duration="2623000" />
+      <workItem from="1600433444065" duration="448000" />
+      <workItem from="1600504450021" duration="4799000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab1: add interface">
+      <created>1600433712289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600433712289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -106,11 +122,30 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Lab1: add interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab1: add interface" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1600509051417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600509051417" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1600509051417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600509051417" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1600509051417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600509051417" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1600509051417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600509051417" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1600365321980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -119,9 +154,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1600365800584" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600363128334">
+    <state x="168" y="120" width="1200" height="584" key="VCS.FileHistoryDialog" timestamp="1600504982399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600363128334" />
+    <state x="168" y="120" width="1200" height="584" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1600504982399" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600433740130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600433740130" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600509258411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600509258411" />
   </component>
 </project>
