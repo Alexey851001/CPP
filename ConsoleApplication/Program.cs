@@ -16,9 +16,16 @@ namespace ConsoleApplication
             
             tracer.StopTrace();
             TraceResult traceResult = tracer.GetTraceResult();
-            ISerializer<TraceResult> serializer = new XmlSerialize();
+            ISerializer<TraceResult> serializer = new JsonSerialize();
             serializer.Stringify(traceResult);
             serializer.WriteToConsole();
+            serializer.SaveToFile();
+
+            serializer = new XmlSerialize();
+            serializer.Stringify(traceResult);
+            serializer.WriteToConsole();
+            serializer.SaveToFile();
+            
         }
     }
     

@@ -17,7 +17,7 @@ namespace ClassLibrary1
         
         public void StartTrace()
         {
-            int threadId = Thread.CurrentThread.ManagedThreadId;
+            int threadId;
             string methodName = "", className = "";
             GetMethodAndClassName(out methodName,out className, out threadId);
             MethodInfo methodInfo = new MethodInfo(methodName,className);
@@ -56,7 +56,6 @@ namespace ClassLibrary1
                 if (Result.ThreadInfos.Contains(threadInfo))
                 {
                     Result.ThreadInfos.Find(threadInfo)?.Value.Methods.AddLast(methodInfo);
-                    
                     Result.ThreadInfos.Find(threadInfo).Value.ElapsedMs += methodInfo.ElapsedMs;
                 }
                 else
@@ -65,10 +64,7 @@ namespace ClassLibrary1
                     threadInfo.ElapsedMs += methodInfo.ElapsedMs;
                     Result.ThreadInfos.AddLast(threadInfo);
                 }
-
-                
             }
-
         }
 
         public TraceResult GetTraceResult()

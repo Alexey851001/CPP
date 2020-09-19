@@ -9,7 +9,9 @@
         <e p="ClassLibrary.csproj" t="IncludeRecursive" />
         <e p="ISerialize.cs" t="Include" />
         <e p="ITracer.cs" t="Include" />
+        <e p="JsonSerialize.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
