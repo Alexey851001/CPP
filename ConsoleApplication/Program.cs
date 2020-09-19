@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Threading;
 using ClassLibrary1;
 namespace ConsoleApplication
@@ -16,14 +15,10 @@ namespace ConsoleApplication
             Thread.Sleep(20);
             
             tracer.StopTrace();
-            while (tracer.MethodInfos.Count != 0)
-            {
-                MethodInfo methodInfo = tracer.MethodInfos.Pop();
-                
-                Console.WriteLine(methodInfo.ClassName);
-                Console.WriteLine(methodInfo.MethodName);
-                Console.WriteLine(methodInfo.ElapsedMs);
-            }
+            TraceResult traceResult = tracer.GetTraceResult();
+            ISerializer<TraceResult> serializer = new XmlSerialize();
+            serializer.Stringify(traceResult);
+            serializer.WriteToConsole();
         }
     }
     
