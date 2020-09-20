@@ -34,7 +34,7 @@ namespace ConsoleApplication
         private Bar _bar;
         private ITracer _tracer;
 
-        internal Foo(ITracer tracer)
+        public Foo(ITracer tracer)
         {
             _tracer = tracer;
             _bar = new Bar(_tracer);
@@ -54,7 +54,7 @@ namespace ConsoleApplication
     {
         private ITracer _tracer;
 
-        internal Bar(ITracer tracer)
+        public Bar(ITracer tracer)
         {
             _tracer = tracer;
         }
