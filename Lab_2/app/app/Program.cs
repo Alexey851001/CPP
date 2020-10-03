@@ -10,6 +10,7 @@ namespace app
             Faker.Faker faker = new Faker.Faker();
 
             Foo foo = faker.Create<Foo>();
+            Bar bar = faker.Create<Bar>();
         }
     }
     
