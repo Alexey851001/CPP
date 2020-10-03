@@ -1,0 +1,13 @@
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.exe
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.deps.json
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.runtimeconfig.json
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.runtimeconfig.dev.json
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.dll
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\app.pdb
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.dll
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.pdb
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.genruntimeconfig.cache
