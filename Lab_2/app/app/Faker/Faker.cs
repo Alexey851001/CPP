@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 using app.Generate;
@@ -10,7 +12,31 @@ namespace app.Faker
     {
         private Dictionary<Type,IGenerate> _dictionary = new Dictionary<Type,IGenerate>();
         private Stack<Type> _stack = new Stack<Type>();
+        private readonly string pluginPath = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Plugins");
+        private List<IPlugin> plugins = new List<IPlugin>();
 
+        private void RefreshPlugins()
+        {
+            plugins.Clear();
+
+            DirectoryInfo pluginDirectory = new DirectoryInfo(pluginPath);
+            if (!pluginDirectory.Exists)
+                pluginDirectory.Create();
+        
+            var pluginFiles = Directory.GetFiles(pluginPath, "*.dll");
+            foreach (var file in pluginFiles)
+            {
+                Assembly asm = Assembly.LoadFrom(file);
+                var types = asm.GetTypes().
+                    Where(t => t.GetInterfaces(). Where(i => i.FullName == typeof(IPlugin).FullName).Any());
+
+                foreach (var type in types)
+                {           
+                    var plugin = asm.CreateInstance(type.FullName) as IPlugin;
+                    _dictionary.Add(plugin.GetGeneratorType(), plugin);
+                }
+            }
+        }
         public Faker()
         {
             _dictionary.Add(typeof(int),new IntGenerate());
@@ -20,11 +46,12 @@ namespace app.Faker
             _dictionary.Add(typeof(float),new FloatGenerate());
             _dictionary.Add(typeof(DateTime), new DateGenerate());
             _dictionary.Add(typeof(List<>), new ListGenerate());
+            RefreshPlugins();
         }
 
         private bool isDTO(Type type)
         {
-            return type.IsClass && !type.IsValueType && !type.IsGenericType;
+            return type.IsClass && !type.IsValueType && !type.IsGenericType && (type != typeof(string));
         }
 
         private List<Object> GenerateParametersForConstructor(ParameterInfo[] parameterInfos)
@@ -34,13 +61,23 @@ namespace app.Faker
             for (int i = 0; i < parameterInfos.Length; i++)
             {
                 Type parameterType = parameterInfos[i].ParameterType;
+                Type genericParameterType = parameterType;
+                if (parameterType.IsGenericType)
+                {
+                    parameterType = parameterType.GetGenericTypeDefinition();
+                }
+                if (parameterType.IsGenericType)
+                {
+                    parameterType = parameterType.GetGenericTypeDefinition();
+                }
                 if (!isDTO(parameterType))
                 {
                     if (_dictionary.ContainsKey(parameterType))
                     {
                         if (parameterType.IsGenericType)
                         {
-                            result.Add(_dictionary[parameterType].GenericGenerate(parameterType.GenericTypeArguments[0]));
+                            result.Add(_dictionary[parameterType]
+                                .GenericGenerate(genericParameterType.GenericTypeArguments[0],_dictionary));
                         }
                         else
                         {
@@ -66,13 +103,20 @@ namespace app.Faker
             for (int i = 0; i < fields.Length; i++)
             {
                 Type parameterType = fields[i].FieldType;
+                Type genericParameterType = parameterType;
+                if (parameterType.IsGenericType)
+                {
+                    parameterType = parameterType.GetGenericTypeDefinition();
+                }
                 if (!isDTO(parameterType))
                 {
                     if (_dictionary.ContainsKey(parameterType))
                     {
                         if (parameterType.IsGenericType)
                         {
-                            fields[i].SetValue(obj,_dictionary[parameterType].GenericGenerate(parameterType.GenericTypeArguments[0]));
+                            
+                            fields[i].SetValue(obj, _dictionary[parameterType]
+                                .GenericGenerate(genericParameterType.GenericTypeArguments[0],_dictionary));
                         }
                         else
                         {
@@ -95,14 +139,24 @@ namespace app.Faker
             {
                 if (propertyInfos[i].CanWrite)
                 {
-                    Type parameterType = fields[i].FieldType;
+                    Type parameterType = propertyInfos[i].PropertyType;
+                    Type genericParameterType = parameterType;
+                    if (parameterType.IsGenericType)
+                    {
+                        parameterType = parameterType.GetGenericTypeDefinition();
+                    }
+                    if (parameterType.IsGenericType)
+                    {
+                        parameterType = parameterType.GetGenericTypeDefinition();
+                    }
                     if (!isDTO(parameterType))
                     {
                         if (_dictionary.ContainsKey(parameterType))
                         {
                             if (parameterType.IsGenericType)
                             {
-                                propertyInfos[i].SetValue(obj,_dictionary[parameterType].GenericGenerate(parameterType.GenericTypeArguments[0]));
+                                propertyInfos[i].SetValue(obj,_dictionary[parameterType]
+                                    .GenericGenerate(genericParameterType.GenericTypeArguments[0], _dictionary));
                             }
                             else
                             {
@@ -170,4 +224,5 @@ namespace app.Faker
             return (T) CreateInner(type);
         }
     }
+    
 }

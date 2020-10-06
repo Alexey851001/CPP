@@ -1,0 +1,13 @@
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\app.exe
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\CharGenerate.deps.json
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\CharGenerate.dll
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\CharGenerate.pdb
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\app.dll
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\bin\Debug\netcoreapp3.1\app.pdb
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.csproj.CopyComplete
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.dll
+D:\5sem\SPP\CPP\Lab_2\app\CharGenerate\obj\Debug\netcoreapp3.1\CharGenerate.pdb

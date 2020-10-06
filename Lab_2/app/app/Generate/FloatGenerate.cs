@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace app.Generate
 {
@@ -10,7 +11,7 @@ namespace app.Generate
             return (float)random.NextDouble();
         }
 
-        public object GenericGenerate(Type type)
+        public object GenericGenerate(Type type, Dictionary<Type, IGenerate> dictionary)
         {
             return null;
         }

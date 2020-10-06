@@ -1,0 +1,13 @@
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\app.exe
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\ByteGenerate.deps.json
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\ByteGenerate.dll
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\ByteGenerate.pdb
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\app.dll
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\bin\Debug\netcoreapp3.1\app.pdb
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.csproj.CopyComplete
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.dll
+D:\5sem\SPP\CPP\Lab_2\app\ByteGenerate\obj\Debug\netcoreapp3.1\ByteGenerate.pdb

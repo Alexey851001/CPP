@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ByteGenerate/1.0.0": {
+        "dependencies": {
+          "app": "1.0.0"
+        },
+        "runtime": {
+          "ByteGenerate.dll": {}
+        }
+      },
+      "app/1.0.0": {
+        "runtime": {
+          "app.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteGenerate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

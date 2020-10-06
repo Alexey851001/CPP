@@ -16,12 +16,12 @@ namespace app.Generate
             List<char> charList = new List<char>();
             for (int j = 0; j < stringLength; j++)
             {
-                charList.Add(ALPHABET[random.Next(0,ALPHABET.Length + 1)]);
+                charList.Add(ALPHABET[random.Next(0,ALPHABET.Length)]);
             }
             return new string(charList.ToArray());
         }
 
-        public object GenericGenerate(Type type)
+        public object GenericGenerate(Type type, Dictionary<Type,IGenerate> dictionary)
         {
             return null;
         }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace app.Generate
 {
@@ -18,7 +19,7 @@ namespace app.Generate
                 .AddDays(random.Next(rangeDays));
         }
 
-        public object GenericGenerate(Type type)
+        public object GenericGenerate(Type type, Dictionary<Type, IGenerate> dictionary)
         {
             return null;
         }

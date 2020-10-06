@@ -9,6 +9,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Faker" t="Include">
           <e p="Faker.cs" t="Include" />
+          <e p="IPlugin.cs" t="Include" />
         </e>
         <e p="Generate" t="Include">
           <e p="BoolGenerate.cs" t="Include" />
@@ -33,6 +34,30 @@
         </e>
       </e>
       <e p="app.sln" t="IncludeFlat" />
+      <e p="ByteGenerate" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ByteGenerate.cs" t="Include" />
+        <e p="ByteGenerate.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ByteGenerate.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CharGenerate" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CharGenerate.cs" t="Include" />
+        <e p="CharGenerate.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CharGenerate.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

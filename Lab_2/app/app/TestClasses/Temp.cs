@@ -1,9 +1,9 @@
-﻿namespace app.TestClasses
+﻿using System;
+using System.Collections.Generic;
+
+namespace app.TestClasses
 {
-    public class Temp
-    {
-        
-    }
+    public class Temp {}
 
     public class Foo
     {
@@ -12,6 +12,7 @@
         public bool BValue;
         public double DValue;
         public string SValue;
+        public List<int> ListValue;
         private int pi;
         
         public Foo() {}
@@ -23,8 +24,6 @@
             SValue = stringValue;
             
         }
-
-
         public int Pi
         {
             get => pi;
@@ -35,6 +34,7 @@
     public class Bar
     {
         public int IValue;
+        public DateTime DateTimeValue;
         private Bar(){}
     }
 

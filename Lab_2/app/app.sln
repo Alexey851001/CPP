@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{23A737AE-E640-4542-A3D3-6AFBB4FA3364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteGenerate", "ByteGenerate\ByteGenerate.csproj", "{8208A6A9-BF53-4A72-835F-9E0D21FF8AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharGenerate", "CharGenerate\CharGenerate.csproj", "{A1351D37-24D9-45B0-9E63-765E05121DC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{23A737AE-E640-4542-A3D3-6AFBB4FA3364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A737AE-E640-4542-A3D3-6AFBB4FA3364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A737AE-E640-4542-A3D3-6AFBB4FA3364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8208A6A9-BF53-4A72-835F-9E0D21FF8AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8208A6A9-BF53-4A72-835F-9E0D21FF8AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8208A6A9-BF53-4A72-835F-9E0D21FF8AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8208A6A9-BF53-4A72-835F-9E0D21FF8AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1351D37-24D9-45B0-9E63-765E05121DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1351D37-24D9-45B0-9E63-765E05121DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1351D37-24D9-45B0-9E63-765E05121DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1351D37-24D9-45B0-9E63-765E05121DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
