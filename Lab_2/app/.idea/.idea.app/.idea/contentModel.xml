@@ -10,6 +10,16 @@
         <e p="Faker" t="Include">
           <e p="Faker.cs" t="Include" />
         </e>
+        <e p="Generate" t="Include">
+          <e p="BoolGenerate.cs" t="Include" />
+          <e p="DateGenerate.cs" t="Include" />
+          <e p="FloatGenerate.cs" t="Include" />
+          <e p="IGenerate.cs" t="Include" />
+          <e p="IntGenerate.cs" t="Include" />
+          <e p="ListGenerate.cs" t="Include" />
+          <e p="LongGenerate.cs" t="Include" />
+          <e p="StringGenerate.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
