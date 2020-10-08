@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hH4Q65HxpFn/6XJLakHNWLyYIXWlLg8VzRuUe9OtNza1V5HxcRMgcpzcJJBQ4MJLMFRY962FizGACGuVBWttKA==",
+  "dgSpecHash": "pLCykseJ98HjUHObDa4Z/gc8TsVkWUCPMOMmUXDmflD3ZFb/ZxHAyUyM9DhmILyt8c1Pkk4LxkeL00Zpq7ZRBg==",
   "success": true,
   "projectFilePath": "D:\\5sem\\SPP\\CPP\\Lab_2\\app\\CharGenerate\\CharGenerate.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Алексей\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

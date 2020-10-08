@@ -66,10 +66,7 @@ namespace app.Faker
                 {
                     parameterType = parameterType.GetGenericTypeDefinition();
                 }
-                if (parameterType.IsGenericType)
-                {
-                    parameterType = parameterType.GetGenericTypeDefinition();
-                }
+                
                 if (!isDTO(parameterType))
                 {
                     if (_dictionary.ContainsKey(parameterType))

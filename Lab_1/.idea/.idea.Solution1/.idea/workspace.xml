@@ -19,11 +19,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcdf8cad-7f03-414f-a96b-7550f0c06b58" name="Default Changelist" comment="Lab1: add Json serialization">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApplication/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApplication/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Solution1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution1.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Solution1.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/.idea/.idea.app/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/ByteGenerate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/ByteGenerate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/ByteGenerate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/app.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/bin/Debug/netcoreapp3.1/app.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/ByteGenerate.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/ByteGenerate.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/Debug/netcoreapp3.1/ByteGenerate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/ByteGenerate/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/CharGenerate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/app.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/bin/Debug/netcoreapp3.1/app.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/CharGenerate.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/CharGenerate.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/Debug/netcoreapp3.1/CharGenerate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/CharGenerate/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/Faker/Faker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/Faker/Faker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/TestClasses/Temp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/TestClasses/Temp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/app.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/app.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/Plugins/ByteGenerate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/Plugins/ByteGenerate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/bin/Debug/netcoreapp3.1/app.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/Debug/netcoreapp3.1/app.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/app.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/app.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_2/app/app/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_2/app/app/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +78,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClassLibrary/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DE66FF1-1FCB-4513-8463-255B392B032B/45/35119610/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassLibrary/ITracer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,6 +155,7 @@
       <workItem from="1600433444065" duration="448000" />
       <workItem from="1600504450021" duration="19465000" />
       <workItem from="1600586475756" duration="1519000" />
+      <workItem from="1602086986763" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1: add interface">
       <created>1600433712289</created>

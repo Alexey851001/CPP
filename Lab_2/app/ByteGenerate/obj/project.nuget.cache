@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V2iYJY1keF+bZX/E8PcRmiKbWxPj9ae1ZDhOzGGRPAG/TG0fXr5vGm8vrmp2yyTQ1Nbhfz4hGDxaF6Wc96eGGA==",
+  "dgSpecHash": "hIvHwccEchafKQZzDWCNeQPBK8uKtPaGg7CCWFnjL2C315b3NWPPSI41ffms6yGwNUFRsg81aAeLNONdFU/0Bg==",
   "success": true,
   "projectFilePath": "D:\\5sem\\SPP\\CPP\\Lab_2\\app\\ByteGenerate\\ByteGenerate.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Алексей\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

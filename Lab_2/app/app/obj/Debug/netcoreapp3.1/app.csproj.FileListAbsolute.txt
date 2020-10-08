@@ -11,3 +11,5 @@ D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.csproj.CoreCompileInpu
 D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.dll
 D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.pdb
 D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.genruntimeconfig.cache
+D:\5sem\SPP\CPP\Lab_2\app\app\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\5sem\SPP\CPP\Lab_2\app\app\obj\Debug\netcoreapp3.1\app.csproj.CopyComplete

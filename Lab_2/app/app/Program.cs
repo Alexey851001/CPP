@@ -1,5 +1,6 @@
 ﻿using System;
 using app.TestClasses;
+using Newtonsoft.Json;
 
 namespace app
 {
@@ -12,6 +13,9 @@ namespace app
             Foo foo = faker.Create<Foo>();
             Bar bar = faker.Create<Bar>();
             A a = faker.Create<A>();
+            Console.WriteLine("Foo:" + JsonConvert.SerializeObject(foo, Formatting.Indented));
+            Console.WriteLine("Bar:" + JsonConvert.SerializeObject(bar, Formatting.Indented));
+            Console.WriteLine("A:" +JsonConvert.SerializeObject(a, Formatting.Indented));
         }
     }
     

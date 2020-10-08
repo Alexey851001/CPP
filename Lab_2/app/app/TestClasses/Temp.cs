@@ -24,6 +24,11 @@ namespace app.TestClasses
             SValue = stringValue;
             
         }
+
+        public Foo(double doubleValue)
+        {
+            DValue = doubleValue;
+        }
         public int Pi
         {
             get => pi;
@@ -35,21 +40,25 @@ namespace app.TestClasses
     {
         public int IValue;
         public DateTime DateTimeValue;
+        public char CValue;
         private Bar(){}
     }
 
     public class A
     {
         public B b;
+        public byte ByValue;
     }
 
     public class B
     {
         public C c;
+        public byte ByValue;
     }
 
     public class C
     {
         public A a;
+        public byte ByValue;
     }
 }

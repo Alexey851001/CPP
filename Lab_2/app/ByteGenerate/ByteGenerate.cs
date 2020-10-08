@@ -10,7 +10,7 @@ namespace ByteGenerate
         public object Generate()
         {
             Random random = new Random();
-            return random.Next(0,255);
+            return (Byte)random.Next(0,255);
         }
 
         public object GenericGenerate(Type type, Dictionary<Type, IGenerate> dictionary)
