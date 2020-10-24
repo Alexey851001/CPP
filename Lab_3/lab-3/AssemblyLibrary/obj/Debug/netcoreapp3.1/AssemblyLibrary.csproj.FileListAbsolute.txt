@@ -1,0 +1,9 @@
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\bin\Debug\netcoreapp3.1\AssemblyLibrary.deps.json
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\bin\Debug\netcoreapp3.1\AssemblyLibrary.dll
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\bin\Debug\netcoreapp3.1\AssemblyLibrary.pdb
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.dll
+D:\5sem\SPP\CPP\Lab_3\lab-3\AssemblyLibrary\obj\Debug\netcoreapp3.1\AssemblyLibrary.pdb
