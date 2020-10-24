@@ -23,12 +23,13 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="0.15*" />
         </Grid.RowDefinitions>
-        <ListBox Grid.Column="0" >
+        <ListBox Grid.Column="0" ItemsSource="{Binding DllInfos}"
+                 SelectedItem="{Binding SelectedDll}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="5">
-                        <TextBlock FontSize="18" />
-                        <TextBlock  />
+                        <TextBlock FontSize="18" Text="{Binding Path=Name}" />
+                        <TextBlock Text="{Binding Path=Path}" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
@@ -37,7 +38,7 @@
             <Button Width="50px">Add</Button>
         </StackPanel>
         <ScrollViewer Grid.Row="0" Grid.Column="1" >
-            <TreeView Name="AssemblyTreeView" >
+            <TreeView >
                 <TreeView.ItemTemplate>
                     <HierarchicalDataTemplate >
                         <TextBlock />

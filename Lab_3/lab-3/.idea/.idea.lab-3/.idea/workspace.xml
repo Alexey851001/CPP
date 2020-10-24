@@ -25,7 +25,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad0efda-0345-4756-8c66-8480b61c438b" name="Default Changelist" comment="" />
+    <list default="true" id="6ad0efda-0345-4756-8c66-8480b61c438b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/ApplicationView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/ApplicationView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp_MarkupCompile.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +51,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AssemblyLibrary/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssemblyLibrary/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" />
+        <option value="$PROJECT_DIR$/WpfApp/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/WpfApp/DllInfo.cs" />
         <option value="$PROJECT_DIR$/WpfApp/ApplicationView.cs" />
         <option value="$PROJECT_DIR$/WpfApp/MainWindow.xaml" />
-        <option value="$PROJECT_DIR$/WpfApp/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" />
       </list>
     </option>
   </component>
@@ -94,8 +111,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603480639062</updated>
       <workItem from="1603480645684" duration="1502000" />
-      <workItem from="1603555449825" duration="1962000" />
+      <workItem from="1603555449825" duration="5824000" />
     </task>
+    <task id="LOCAL-00001" summary="add wpf application">
+      <created>1603558544416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603558544416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,28 +142,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add wpf application" />
+    <option name="LAST_COMMIT_MESSAGE" value="add wpf application" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603481567824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603481567824" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603558194574">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603563251356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603558194574" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603558194574">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603563251356" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603563251356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603558194574" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603558194574">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603563251356" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603563251356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603558194574" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603558194574">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603563251356" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603563251356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603558194574" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603563251356" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1603481669042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -147,5 +174,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603481013625" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603558550479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603558550479" />
   </component>
 </project>
