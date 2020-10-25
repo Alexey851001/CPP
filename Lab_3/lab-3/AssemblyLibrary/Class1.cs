@@ -9,26 +9,32 @@ namespace AssemblyLibrary
     {
         public static AssemblyInfo GetAssemblyInfo(string path)
         {
-            AssemblyInfo assemblyInfo = new AssemblyInfo();
-            Assembly assembly = Assembly.LoadFile(path);
-            foreach (Type type in assembly.GetTypes())
+            try
             {
-                string currentNamespace = type.Namespace;
-                if (currentNamespace != null)
+                AssemblyInfo assemblyInfo = new AssemblyInfo();
+                Assembly assembly = Assembly.LoadFile(path);
+                foreach (Type type in assembly.GetTypes())
                 {
-                    if (!assemblyInfo.NamespaceInfos.ContainsKey(currentNamespace))
+                    string currentNamespace = type.Namespace;
+                    if (currentNamespace != null)
                     {
-                        assemblyInfo.NamespaceInfos.Add(currentNamespace, new NamespaceInfo());
-                    }
-                    
-                    assemblyInfo.NamespaceInfos[currentNamespace].DataTypeInfos.AddLast(
-                        new DataTypeInfo(type.GetFields(), 
-                            type.GetProperties(),
-                        type.GetMethods(), type.Name));
-                }
-            }
+                        if (!assemblyInfo.NamespaceInfos.ContainsKey(currentNamespace))
+                        {
+                            assemblyInfo.NamespaceInfos.Add(currentNamespace, new NamespaceInfo());
+                        }
 
-            return assemblyInfo;
+                        assemblyInfo.NamespaceInfos[currentNamespace].DataTypeInfos.AddLast(
+                            new DataTypeInfo(type.GetFields(),
+                                type.GetProperties(),
+                                type.GetMethods(), type.Name));
+                    }
+                }
+
+                return assemblyInfo;
+            } catch (Exception e)
+            {
+                return null;
+            }
         }
         public static TreeViewItem BuildTree(AssemblyInfo assemblyInfo)
         {
