@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "D:\\5sem\\SPP\\CPP\\Lab_3\\lab-3\\AssemblyLibrary\\AssemblyLibrary.csproj": {
+            "projectPath": "D:\\5sem\\SPP\\CPP\\Lab_3\\lab-3\\AssemblyLibrary\\AssemblyLibrary.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

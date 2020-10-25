@@ -17,3 +17,6 @@ D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CoreCom
 D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.dll
 D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.pdb
 D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.genruntimeconfig.cache
+D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\bin\Debug\netcoreapp3.1\AssemblyLibrary.dll
+D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\bin\Debug\netcoreapp3.1\AssemblyLibrary.pdb
+D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CopyComplete

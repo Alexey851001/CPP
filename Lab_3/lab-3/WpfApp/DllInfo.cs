@@ -1,16 +1,33 @@
 ﻿using System.IO;
+using AssemblyLibrary;
 
 namespace WpfApp
 {
     public class DllInfo
     {
-        public string Path;
-        public string Name;
+        private string path;
 
-        public DllInfo(string dllPath, string dllName)
+        public string Path
+        {
+            get => path;
+            set => path = value;
+        }
+
+        private string name;
+
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
+
+        public AssemblyLib.AssemblyInfo AssemblyInfo;
+
+        public DllInfo(string dllPath, string dllName, AssemblyLib.AssemblyInfo assemblyInfo)
         {
             Path = dllPath;
             Name = dllName;
+            AssemblyInfo = assemblyInfo;
         }
     }
 }

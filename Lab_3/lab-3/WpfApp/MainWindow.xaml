@@ -35,7 +35,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
-            <Button Width="50px">Add</Button>
+            <Button Width="50px" Command="{Binding AddCommand}">Add</Button>
         </StackPanel>
         <ScrollViewer Grid.Row="0" Grid.Column="1" >
             <TreeView >
