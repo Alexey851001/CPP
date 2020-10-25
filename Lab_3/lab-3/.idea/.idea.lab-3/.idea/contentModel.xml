@@ -19,6 +19,7 @@
       <e p="lab-3.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="WpfApp" t="IncludeRecursive">
+        <e p="Annotations.cs" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="ApplicationView.cs" t="Include" />

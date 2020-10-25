@@ -37,11 +37,11 @@
         <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
             <Button Width="50px" Command="{Binding AddCommand}">Add</Button>
         </StackPanel>
-        <ScrollViewer Grid.Row="0" Grid.Column="1" >
-            <TreeView >
+        <ScrollViewer Grid.Row="0" Grid.Column="1" DataContext="{Binding SelectedDll}">
+            <TreeView Name="AssemblyTreeView" ItemsSource="{Binding AssemblyInfo.Inner}">
                 <TreeView.ItemTemplate>
-                    <HierarchicalDataTemplate >
-                        <TextBlock />
+                    <HierarchicalDataTemplate ItemsSource="{Binding Inner}">
+                        <TextBlock Text="{Binding Name}" />
                     </HierarchicalDataTemplate>
                 </TreeView.ItemTemplate>
             </TreeView>
