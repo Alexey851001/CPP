@@ -43,7 +43,7 @@
         <e p="Annotations.cs" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
-        <e p="ApplicationView.cs" t="Include" />
+        <e p="ApplicationViewModel.cs" t="Include" />
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Command.cs" t="Include" />

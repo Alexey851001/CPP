@@ -24,7 +24,7 @@ namespace WpfApp
         {
             InitializeComponent();
             
-            DataContext = new ApplicationView();
+            DataContext = new ApplicationViewModel();
         }
     }
 }

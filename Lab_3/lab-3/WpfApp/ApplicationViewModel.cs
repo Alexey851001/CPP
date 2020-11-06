@@ -6,7 +6,7 @@ using Microsoft.Win32;
 
 namespace WpfApp
 {
-    public class ApplicationView : INotifyPropertyChanged
+    public class ApplicationViewModel : INotifyPropertyChanged
     {
         private DllInfo selectedDll;
         public DllInfo SelectedDll
@@ -27,7 +27,7 @@ namespace WpfApp
             get => addCommand;
         }
 
-        public ApplicationView()
+        public ApplicationViewModel()
         {
             DllInfos = new ObservableCollection<DllInfo>();
             addCommand = new Command(obj =>
