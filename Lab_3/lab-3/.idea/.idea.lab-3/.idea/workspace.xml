@@ -27,11 +27,28 @@
   <component name="ChangeListManager">
     <list default="true" id="6ad0efda-0345-4756-8c66-8480b61c438b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab-3/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/bin/Debug/netcoreapp3.1/AssemblyLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/bin/Debug/netcoreapp3.1/AssemblyLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/bin/Debug/netcoreapp3.1/AssemblyLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/bin/Debug/netcoreapp3.1/AssemblyLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/obj/Debug/netcoreapp3.1/AssemblyLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/obj/Debug/netcoreapp3.1/AssemblyLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyLibrary/obj/Debug/netcoreapp3.1/AssemblyLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssemblyLibrary/obj/Debug/netcoreapp3.1/AssemblyLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/ApplicationView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/ApplicationView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/DllInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/DllInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/AssemblyLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/AssemblyLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/AssemblyLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/AssemblyLibrary.pdb" afterDir="false" />
+>>>>>>> parent of b83580f... add Unit Tests
       <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/bin/Debug/netcoreapp3.1/WpfApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/MainWindow.g.cs" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+>>>>>>> parent of b83580f... add Unit Tests
       <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp/obj/Debug/netcoreapp3.1/WpfApp.g.resources" afterDir="false" />
@@ -60,11 +77,15 @@
         <option value="$PROJECT_DIR$/WpfApp/Command.cs" />
         <option value="$PROJECT_DIR$/WpfApp/ApplicationView.cs" />
         <option value="$PROJECT_DIR$/WpfApp/DllInfo.cs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/WpfApp/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/WpfApp/ApplicationViewModel.cs" />
         <option value="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" />
         <option value="$PROJECT_DIR$/WpfApp/MainWindow.xaml" />
+=======
+        <option value="$PROJECT_DIR$/AssemblyLibrary/Class1.cs" />
+>>>>>>> parent of b83580f... add Unit Tests
       </list>
     </option>
   </component>
@@ -117,11 +138,15 @@
       <option name="presentableId" value="Default" />
       <updated>1603480639062</updated>
       <workItem from="1603480645684" duration="1502000" />
+<<<<<<< HEAD
       <workItem from="1603555449825" duration="14995000" />
       <workItem from="1603643853856" duration="5000" />
       <workItem from="1603699214388" duration="653000" />
       <workItem from="1603716573312" duration="1335000" />
       <workItem from="1603891455028" duration="2662000" />
+=======
+      <workItem from="1603555449825" duration="13531000" />
+>>>>>>> parent of b83580f... add Unit Tests
     </task>
     <task id="LOCAL-00001" summary="add wpf application">
       <created>1603558544416</created>
@@ -144,6 +169,7 @@
       <option name="project" value="LOCAL" />
       <updated>1603616625006</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00004" summary="add TreeView">
       <created>1603642370673</created>
       <option name="number" value="00004" />
@@ -166,11 +192,15 @@
       <updated>1603717058511</updated>
     </task>
     <option name="localTasksCounter" value="7" />
+=======
+    <option name="localTasksCounter" value="4" />
+>>>>>>> parent of b83580f... add Unit Tests
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="UnitTestsCoverage.Settings">
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
@@ -186,6 +216,8 @@
       <select />
     </coverage-tree-state>
   </component>
+=======
+>>>>>>> parent of b83580f... add Unit Tests
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,16 +237,21 @@
     <MESSAGE value="add wpf application" />
     <MESSAGE value="add get assembly info library" />
     <MESSAGE value="add implementation ICommand" />
+<<<<<<< HEAD
     <MESSAGE value="add TreeView" />
     <MESSAGE value="add Unit Tests" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="add implementation ICommand" />
+>>>>>>> parent of b83580f... add Unit Tests
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603481567824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603481567824" />
+<<<<<<< HEAD
     <state width="1493" height="103" key="GridCell.Tab.0.bottom" timestamp="1603895581175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -232,6 +269,25 @@
     </state>
     <state width="1493" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603895581175" />
     <state width="1493" height="103" key="GridCell.Tab.1.bottom" timestamp="1603895581175">
+=======
+    <state width="1493" height="36" key="GridCell.Tab.0.bottom" timestamp="1603642084243">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="36" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603642084243" />
+    <state width="1493" height="36" key="GridCell.Tab.0.center" timestamp="1603642084242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="36" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603642084242" />
+    <state width="1493" height="36" key="GridCell.Tab.0.left" timestamp="1603642084242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="36" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603642084242" />
+    <state width="1493" height="36" key="GridCell.Tab.0.right" timestamp="1603642084243">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="36" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603642084243" />
+    <state width="1493" height="98" key="GridCell.Tab.1.bottom" timestamp="1603642020024">
+>>>>>>> parent of b83580f... add Unit Tests
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="103" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603895581175" />
@@ -294,11 +350,16 @@
     <state width="1493" height="103" key="GridCell.Tab.4.right" timestamp="1603895581176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state width="1493" height="103" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603895581176" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1603642510681">
+=======
+    <state width="1493" height="98" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603642020025" />
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1603481669042">
+>>>>>>> parent of b83580f... add Unit Tests
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1603642510681" />
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1603481669042" />
     <state x="601" y="114" key="RiderGenerateDialog" timestamp="1603614792883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -307,9 +368,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603481013625" />
+<<<<<<< HEAD
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603717061429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603717061429" />
+=======
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603616649854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603616649854" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WpfApp/DllInfo.cs</url>
+          <line>40</line>
+          <properties documentPath="D:\5sem\SPP\CPP\Lab_3\lab-3\WpfApp\DllInfo.cs" initialLine="32">
+            <startOffsets>
+              <option value="803" />
+            </startOffsets>
+            <endOffsets>
+              <option value="847" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> parent of b83580f... add Unit Tests
   </component>
 </project>

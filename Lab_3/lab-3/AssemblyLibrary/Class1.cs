@@ -9,32 +9,26 @@ namespace AssemblyLibrary
     {
         public static AssemblyInfo GetAssemblyInfo(string path)
         {
-            try
+            AssemblyInfo assemblyInfo = new AssemblyInfo();
+            Assembly assembly = Assembly.LoadFile(path);
+            foreach (Type type in assembly.GetTypes())
             {
-                AssemblyInfo assemblyInfo = new AssemblyInfo();
-                Assembly assembly = Assembly.LoadFile(path);
-                foreach (Type type in assembly.GetTypes())
+                string currentNamespace = type.Namespace;
+                if (currentNamespace != null)
                 {
-                    string currentNamespace = type.Namespace;
-                    if (currentNamespace != null)
+                    if (!assemblyInfo.NamespaceInfos.ContainsKey(currentNamespace))
                     {
-                        if (!assemblyInfo.NamespaceInfos.ContainsKey(currentNamespace))
-                        {
-                            assemblyInfo.NamespaceInfos.Add(currentNamespace, new NamespaceInfo());
-                        }
-
-                        assemblyInfo.NamespaceInfos[currentNamespace].DataTypeInfos.AddLast(
-                            new DataTypeInfo(type.GetFields(),
-                                type.GetProperties(),
-                                type.GetMethods(), type.Name));
+                        assemblyInfo.NamespaceInfos.Add(currentNamespace, new NamespaceInfo());
                     }
+                    
+                    assemblyInfo.NamespaceInfos[currentNamespace].DataTypeInfos.AddLast(
+                        new DataTypeInfo(type.GetFields(), 
+                            type.GetProperties(),
+                        type.GetMethods(), type.Name));
                 }
-
-                return assemblyInfo;
-            } catch (Exception e)
-            {
-                return null;
             }
+
+            return assemblyInfo;
         }
         public static TreeViewItem BuildTree(AssemblyInfo assemblyInfo)
         {
