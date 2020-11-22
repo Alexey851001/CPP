@@ -1,0 +1,9 @@
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\bin\Debug\netcoreapp3.1\TestsClassGenerator.deps.json
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\bin\Debug\netcoreapp3.1\TestsClassGenerator.dll
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\bin\Debug\netcoreapp3.1\TestsClassGenerator.pdb
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.dll
+D:\5sem\SPP\CPP\Lab_4\lab-4\TestsClassGenerator\obj\Debug\netcoreapp3.1\TestsClassGenerator.pdb
