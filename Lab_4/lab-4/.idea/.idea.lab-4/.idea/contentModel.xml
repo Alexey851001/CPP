@@ -12,6 +12,18 @@
     <e p="C:\Users\Алексей\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Алексей\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_lab-4.-190230060.00" t="ExcludeRecursive" />
     <e p="D:\5sem\SPP\CPP\Lab_4\lab-4" t="IncludeFlat">
+      <e p="ClassLibrary1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="ClassLibrary1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="ClassLibrary1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="ConsoleApp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleApp.csproj" t="IncludeRecursive" />

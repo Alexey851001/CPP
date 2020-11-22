@@ -6,6 +6,8 @@
 	
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ab808f90_002D0284_002D42ed_002Dad29_002Dd09429c3d276/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from output.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="E:\University\СПП\lab-4\TestProject" Presentation="&amp;lt;TestProject&amp;gt;" /&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB0DF6F0-ECD2-4497-8A08-149853D16DD6::.NETCoreApp,Version=v3.1::TestProject1.UnitTest1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>

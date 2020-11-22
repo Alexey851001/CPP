@@ -9,14 +9,14 @@ namespace TestProject1
     public class UnitTest1
     {
         private TestClassGenerator _generator = new TestClassGenerator();
-        private static string _emptyClassInput = "E:\\University\\СПП\\lab-1\\ClassLibrary1\\Class1.cs";
+        private static string _emptyClassInput = "D:\\5sem\\SPP\\CPP\\Lab_4\\lab-4\\ClassLibrary1\\Class1.cs";
         private static string[] _emptyClassesInput = { 
-            "E:\\University\\СПП\\lab-1\\ClassLibrary1\\Class1.cs", 
+            "D:\\5sem\\SPP\\CPP\\Lab_4\\lab-4\\ClassLibrary1\\Class1.cs", 
         };
-        private static string _correctPath = "E:\\University\\СПП\\lab-2\\Faker\\Faker.cs";
+        private static string _correctPath = "D:\\5sem\\SPP\\CPP\\Lab_1\\ClassLibrary\\Tracer.cs";
         private static string[] _correctClassesInput = { 
-            "E:\\University\\СПП\\lab-2\\Faker\\Faker.cs", 
-            "E:\\University\\СПП\\lab-1\\Tracer\\TracerImpl.cs"
+            "D:\\5sem\\SPP\\CPP\\Lab_2\\app\\app\\Faker\\Faker.cs",
+            "D:\\5sem\\SPP\\CPP\\Lab_3\\lab-3\\WpfApp\\DllInfo.cs"
         };
         
         [Fact]

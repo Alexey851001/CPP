@@ -29,20 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc83465-1e78-4f83-8b39-795b806b6e1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab-4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab-4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/TestsClassGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/TestsClassGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/TestsClassGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/TestsClassGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestsClassGenerator/bin/Debug/netcoreapp3.1/TestsClassGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestsClassGenerator/bin/Debug/netcoreapp3.1/TestsClassGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestsClassGenerator/bin/Debug/netcoreapp3.1/TestsClassGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestsClassGenerator/bin/Debug/netcoreapp3.1/TestsClassGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestsClassGenerator/obj/Debug/netcoreapp3.1/TestsClassGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestsClassGenerator/obj/Debug/netcoreapp3.1/TestsClassGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestsClassGenerator/obj/Debug/netcoreapp3.1/TestsClassGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestsClassGenerator/obj/Debug/netcoreapp3.1/TestsClassGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4.sln" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/netcoreapp3.1/TestProject1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/netcoreapp3.1/TestProject1.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-4.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +181,7 @@
       <workItem from="1605946028171" duration="2914000" />
       <workItem from="1606038919897" duration="2558000" />
       <workItem from="1606041866460" duration="2692000" />
-      <workItem from="1606051624450" duration="333000" />
+      <workItem from="1606051624450" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add basic pipeline">
       <created>1603031023765</created>
@@ -346,14 +335,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="288" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603747456444" />
-    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1606050611181">
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1606052313362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1606050611181" />
-    <state x="285" y="42" key="SettingsEditor" timestamp="1606051018786">
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1606052313362" />
+    <state x="285" y="42" key="SettingsEditor" timestamp="1606051750319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="285" y="42" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606051018786" />
+    <state x="285" y="42" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606051750319" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603747448784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

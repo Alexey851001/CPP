@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsClassGenerator", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{AB0DF6F0-ECD2-4497-8A08-149853D16DD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{2AB593D5-38C3-4C4E-9CCC-0FEC643A2117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +24,9 @@ Global
 		{AB0DF6F0-ECD2-4497-8A08-149853D16DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0DF6F0-ECD2-4497-8A08-149853D16DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0DF6F0-ECD2-4497-8A08-149853D16DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB593D5-38C3-4C4E-9CCC-0FEC643A2117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB593D5-38C3-4C4E-9CCC-0FEC643A2117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB593D5-38C3-4C4E-9CCC-0FEC643A2117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB593D5-38C3-4C4E-9CCC-0FEC643A2117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
