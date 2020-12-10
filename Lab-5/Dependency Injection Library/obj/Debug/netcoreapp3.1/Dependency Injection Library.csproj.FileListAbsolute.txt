@@ -1,0 +1,9 @@
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\bin\Debug\netcoreapp3.1\Dependency Injection Library.deps.json
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\bin\Debug\netcoreapp3.1\Dependency Injection Library.dll
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\bin\Debug\netcoreapp3.1\Dependency Injection Library.pdb
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.csprojAssemblyReference.cache
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.AssemblyInfoInputs.cache
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.AssemblyInfo.cs
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.csproj.CoreCompileInputs.cache
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.dll
+D:\5sem\SPP\CPP\Lab-5\Dependency Injection Library\obj\Debug\netcoreapp3.1\Dependency Injection Library.pdb
